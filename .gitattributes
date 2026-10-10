@@ -1,0 +1,14 @@
+# Do not edit manually
+# Default behavior
+node_modules/* linguist-vendored
+vendor/* linguist-vendored
+examples/site/*.html linguist-vendored
+examples/site/* linguist-vendored
+
+src/**/*.tsx linguist-detectable
+*.yml linguist-detectable=false
+*.woff binary
+*.svg text  
+* text=auto
+*.min.css linguist-generated
+# eof 246c5432
